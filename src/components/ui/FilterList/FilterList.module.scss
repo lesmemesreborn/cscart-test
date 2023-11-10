@@ -1,0 +1,25 @@
+.filter-list {
+  text-align: start;
+
+  &__content {
+    padding: 16px 8px 0 8px;
+  }
+
+  &__options {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__option {
+  }
+
+  &__label {
+    display: flex;
+    align-items: center;
+  }
+
+  &__input {
+    margin-right: 5px;
+  }
+
+}

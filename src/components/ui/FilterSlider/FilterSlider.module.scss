@@ -1,0 +1,71 @@
+.filter-slider {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  color: #909598;
+
+  &__title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #5a728b;
+  }
+
+  &__header {
+    border-bottom: 1px solid #d3dbe3;
+    padding: 8px;
+    text-align: start;
+  }
+
+  &__content {
+    padding: 16px 8px 0 8px;
+  }
+
+  &__sliderbar {
+    padding: 0 10px;
+  }
+
+  &__inputbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+
+  &__input {
+    width: 73px;
+    height: 26px;
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+
+  &__prefix {
+    padding-right: 4px;
+  }
+
+  &__value {
+    font-size: 0.8rem;
+    color: #777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__min,
+    &__max {
+      font-weight: bold;
+    }
+  }
+
+  &__values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__min-value,
+    &__max-value {
+      font-weight: bold;
+      color: #000;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+
+  &__input {
+    position: relative;
+    flex: 1;
+    border: 1px solid #ccc;
+    width: 73px;
+    height: 32px;
+    padding: 4px 8px;
+    font-size: 14px;
+
+    &__reset-button {
+      position: relative;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+    }
+  }
+}

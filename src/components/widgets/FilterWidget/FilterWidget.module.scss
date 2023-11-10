@@ -1,0 +1,40 @@
+.filter-widget {
+  display: flex;
+  flex-direction: column;
+  background-color: #DCE3EB;
+  width: 300px;
+
+  &__header {
+    background-color: #FFF;
+    padding: 8px;
+  }
+
+  &__content {
+
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #a1a6aa;
+    font-weight: bold;
+  }
+
+}
+
+.reset-block {
+padding: 4px 8px;
+}
+
+.reset-button {
+  background-color: transparent;
+  border: none;
+  float: right;
+  height: 40px;
+  font-size: 85%;
+  color: #566d85;
+
+  &:hover {
+    color: green;
+  }
+}
